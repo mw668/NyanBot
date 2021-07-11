@@ -197,7 +197,7 @@ message: {
 "product": {
 "productImage":{          
 "mimetype": "image/jpeg",             
-"jpegThumbnail": fs.readFileSync(`./src/fake.jpg`)           
+"jpegThumbnail": fs.readFileSync(`./src/fake.png`)           
 },                                
 "title": `Bienvenido a ${mdata.subject}`,
 "description": "",                
@@ -449,7 +449,7 @@ samu330.on('chat-update', async(sam) => {
                 "imageMessage": {
                 "mimetype": "image/jpeg",
                 "caption": `🥀NʮɑƞBσt | 🐉Sɱ330\n${command} ${q}`,
-                'jpegThumbnail': fs.readFileSync('./src/fake.jpg')}}
+                'jpegThumbnail': fs.readFileSync('./src/fake.png')}}
 		}
        		})
 		}
@@ -491,7 +491,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "documentMessage": { "title":"🔥𝒩𝓎𝒶𝓃𝐵𝑜𝓉 | 𝚂𝚊𝚖 𝚢 𝙿𝚎𝚛𝚛𝚢💓", 'jpegThumbnail': fs.readFileSync('./src/fake.jpg')}}
+message: { "documentMessage": { "title":"🔥𝒩𝓎𝒶𝓃𝐵𝑜𝓉 | 𝚂𝚊𝚖 𝚢 𝙿𝚎𝚛𝚛𝚢💓", 'jpegThumbnail': fs.readFileSync('./src/fake.png')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -541,7 +541,7 @@ message: {
 "product": {
 "productImage":{
 "mimetype": "image/jpeg",
-"jpegThumbnail": fs.readFileSync(`./src/fake.jpg`)
+"jpegThumbnail": fs.readFileSync(`./src/fake.png`)
 },
 "title": `🐉𝗦𝗮𝗺𝘂𝟯𝟯𝟬🔥 | 📌𝑵𝒚𝒂𝒏𝑩𝒐𝒕🌹 ${timeFt}`,
 "description": "",
@@ -733,7 +733,7 @@ year: 'numeric'
 })
 var num = sam.participant
 foto = fs.readFileSync('./src/help.jpg')
-fakee = fs.readFileSync('./src/fake.jpg')
+fakee = fs.readFileSync('./src/fake.png')
 assistant = fs.readFileSync('./src/assistant.jpg')
 const forder = { key : {fromMe: false,participant : "0@s.whatsapp.net", ...(from ? { remoteJid: "5214447000377-1624232428@g.us" } : {})},message: {orderMessage: {itemCount : 999999999,status: 1,surface : 1,message: `🥀𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝑁𝑦𝑎𝑛𝐵𝑜𝑡🍒`,orderTitle: 'Samu330',sellerJid: `𝗡𝘆𝗮𝗻𝗕𝗼𝘁🌱`,thumbnail: fs.readFileSync('./src/fake.jpg')}}}
 samu330.updatePresence(from, Presence.recording)
@@ -2923,7 +2923,7 @@ message: {
 "product": {
 "productImage":{
 "mimetype": "image/jpeg",
-"jpegThumbnail": fs.readFileSync(`./src/simi.jpg`)
+"jpegThumbnail": fs.readFileSync(`./src/simi.png`)
 },
 "title": `➫𝐒𝐢𝐦𝐬𝐢𝐦𝐢 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲🔥❣️`,
 "description": `${texto}`,

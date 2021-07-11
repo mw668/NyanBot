@@ -3675,6 +3675,40 @@ break
 					} else {                               
 						reply('*1 para activar, 0 para desactivar*')             
 					}
+		
+					break
+                default:
+		if (budy.includes(`todo bien`)) {
+                  reply(`Si amigo todo, bien vite`)
+                  }
+
+		if (budy.includes(`buenos dias`)) {
+                  reply(`Buenos Dias trolos de mierda`)
+                  }
+
+		if (budy.includes(`bot gay`)) {
+                  reply(`Miren a este boludito`)
+                  }
+
+		if (budy.includes(`Gracias`)) {
+                  reply(`De nada padre`)
+                  }
+
+		if (budy.includes(`Bien gracias y tu?`)) {
+                  reply(`Todo bien yazmi, te quiero :3`)
+                  }
+					
+		if (budy.includes(`opa`)) {
+                  reply(`opaaaaa`)
+                  }
+                 
+		if (budy.includes(`hola`)) {
+                  reply(`hola, apeteces de sexo?`)
+                  }			
+					
+		if (budy.includes(`fua`)) {
+                  reply(`el diegote pa`)
+                  }
 
 
 

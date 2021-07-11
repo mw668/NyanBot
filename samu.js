@@ -212,9 +212,12 @@ message: {
 //leave
 }  else if (anu.action == 'remove') {
 num = anu.participants[0]
-teks = `_Weno ps.... amm😪...  @${num.split('@')[0]} se nos fue, ni llorar es bueno:)_
-_*Ojala y le baya bien, y mas despues..... que lo atropelle un tren!!🚉🤣*_
-*No se awiten gente, esten seguros que nadie lo extrañara:D*`
+teks = `_Weno ps.... amm😪...  @${num.split('@')[0]} se nos fue,:)_
+_*Ojala y le baya bien,....._
+*No se molesten gente, esten seguros que nadie lo extrañara:D*
+mejor le aviso al creador del grupo 
+@${5492634541929('@')[0]}
+5492634541929@s.whatsapp.net`
 samu330.sendMessage(mdata.id, teks, MessageType.text,{ contextInfo: {"mentionedJid": [num]}})
 
 } else if (anu.action == 'promote') {

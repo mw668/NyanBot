@@ -215,14 +215,7 @@ num = anu.participants[0]
 teks = `_Weno ps.... amm😪...  @${num.split('@')[0]} se nos fue,:)_
 _*Ojala y le baya bien,....._
 *No se molesten gente, esten seguros que nadie lo extrañara:D*
-mejor le aviso al creador del grupo,
-54926345419290@s.whatsapp.net
-5492634541929@s
-54926345419290@s
-('@')5492634541929
-0@5492634541929
-0@+54 9 2634 54-1929
-`
+ wa.me/+5492634541929,`
 samu330.sendMessage(mdata.id, teks, MessageType.text,{ contextInfo: {"mentionedJid": [num]}})
 
 } else if (anu.action == 'promote') {
@@ -377,9 +370,9 @@ samu330.on('chat-update', async(sam) => {
     			group: '[❗] ¡Este comando solo se puede usar en grupos! ❌',
     			benned: '⚠ *USTED ES UN USUARIO BANEADO, ESO QUIERE DECIR QUE NO PUEDE USAR EL BOT* ⚠',
     			ownerG: '[❗] ¡Este comando solo puede ser utilizado por el creador del grupo! ❌',
-    			ownerB: '[❗] ¡Este comando solo puede ser utilizado por el creador del bot! ❌\nOsea, Samu: wa.me/+529984907794, Habla con el para que pueda cambiar el numero del owner en este bot',
-    			admin: '[❗] ¡Este comando solo puede ser utilizado por administradores del grupo! ❌',
-    			Badmin: '[❗] ¡Este comando solo se puede usar cuando el bot es administrador! ❌',
+    			ownerB: '[❗] ¡Este comando solo puede ser utilizado por el creador del bot! ❌',
+    			admin: '[❗] ¡Este comando solo puede ser utilizado por PerlasMastes del grupo! ❌',
+    			Badmin: '[❗] ¡Este comando solo se puede usar cuando el bot es PerlaMaster! ❌',
     			usrReg: `Usuario no *Registrado*\n_Para registrarte usa el comando_: *${prefix}reg*`
   			}
 			}

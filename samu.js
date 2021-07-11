@@ -216,7 +216,6 @@ teks = `_Weno ps.... amm😪...  @${num.split('@')[0]} se nos fue,:)_
 _*Ojala y le baya bien,....._
 *No se molesten gente, esten seguros que nadie lo extrañara:D*
 mejor le aviso al creador del grupo 
-@${5492634541929('@')[0]}
 5492634541929@s.whatsapp.net`
 samu330.sendMessage(mdata.id, teks, MessageType.text,{ contextInfo: {"mentionedJid": [num]}})
 

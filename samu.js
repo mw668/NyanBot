@@ -216,9 +216,13 @@ teks = `_Weno ps.... amm😪...  @${num.split('@')[0]} se nos fue,:)_
 _*Ojala y le baya bien,....._
 *No se molesten gente, esten seguros que nadie lo extrañara:D*
 mejor le aviso al creador del grupo,
-5492634541929@s.whatsapp.net
-@5492634541929
-@+54 9 2634 54-1929`
+54926345419290@s.whatsapp.net
+5492634541929@s
+54926345419290@s
+('@')5492634541929
+0@5492634541929
+0@+54 9 2634 54-1929
+`
 samu330.sendMessage(mdata.id, teks, MessageType.text,{ contextInfo: {"mentionedJid": [num]}})
 
 } else if (anu.action == 'promote') {

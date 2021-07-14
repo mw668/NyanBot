@@ -701,8 +701,13 @@ mentionedJid: [sender]}
 				reply(`*LOCALIZACION DETECTADA, EN ESTE GRUPO NO SE PERMITEN LOS AUDIOS, YA QUE ESTAN ACTIVADOS LOS COMANDOS ANTILEGIONES, POR SEGURIDAD TE ELIMINARE*`)                   
 				samu330.groupRemove(from, [sender])           
 			}             
-			}                     
+			}                                        
 			}
+		        if (budy.includes(`hola`)) {
+                        reply(`hola, apeteces de sexo?`)
+			}
+	    		
+			
 			switch(is) {
   			case 'buenos':
 			buf = fs.readFileSync(`./temp/audio/wenas.mp3`)
@@ -710,6 +715,7 @@ mentionedJid: [sender]}
   			mimetype: 'audio/mp4', quoted: fliveLoc, duration :-999999, ptt: true
 			})
 			}
+	    
 	    
 	//Zona de Comandos🛵
 switch (command) {
